@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- style sheet -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- discription -->
+    <meta
+      name="description"
+      content="Heisenberg is a company that specializes in making sky blue items for those who can't find happiness | We make them so"
+    />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- fav icon -->
+    <link rel="shortcut icon" href="assets/fav icon.png" />
+    <title>HEISENBERG | Blue Sky</title>
+  </head>
+  <body>
+    <div class="backsound">
+      <audio autoplay loop src="assets/sound.mp4"></audio>
+    </div>
+    <div class="container">
+      <!-- header -->
+      <header>
+        <div class="icon">
+          <a href="#">
+            <img class="logo" src="assets/logo.png" alt="" />
+          </a>
+        </div>
+        <div class="nav hide">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#product">Product</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <i class="fa-solid fa-x close"></i>
+          </ul>
+        </div>
+        <div class="bar">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </header>
+      <!-- video -->
+      <video
+        class="background-vid"
+        muted
+        loop
+        autoplay
+        src="assets/video.mp4"
+      ></video>
+      <!-- product -->
+      <div class="title">product</div>
+      <div class="product hidden" id="product">
+        <div class="text-box">
+          <h1>THE BLUE SKY</h1>
+          <p>
+            99.1% chemically pure crystal methamphetamine manufactured by Walter
+            White and Jesse Pinkman, eventually became widespread for its
+            remarkable quality and purity, becoming popular across the United
+            States and eventually even reaching as far as Europe.
+          </p>
+        </div>
+        <img src="assets/product.jpg" alt="" />
+      </div>
+      <!-- services -->
+      <div class="title">services</div>
+      <div class="services hidden" id="services">
+        <img class="main" src="assets/1.jpg" alt="" />
+        <div class="text-box">
+          <h1>What makes us special ?</h1>
+          <p>
+            We specialize in providing pure product, whether you are an agency,
+            or a company that needs to make its business stand out, trust me,
+            our product will be the best choice.
+          </p>
+          <div class="small-imgs">
+            <img src="assets/2.jpg" alt="" />
+            <img src="assets/3.webp" alt="" />
+          </div>
+        </div>
+      </div>
+      <!-- testimonials -->
+      <div class="title">testimonials</div>
+      <div class="testimonials hidden" id="testimonials">
+        <div class="item">
+          <div class="text-box">
+            <h3>emilio</h3>
+            <p>悪くない</p>
+            <br />
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+          </div>
+          <img src="assets/emilio.jpg" alt="" />
+        </div>
+
+        <div class="item">
+          <div class="text-box">
+            <h3>tuco</h3>
+            <p>tiht tight tight yeah !.</p>
+            <br />
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <img src="assets/tuco.jpg" alt="" />
+        </div>
+        <div class="item">
+          <div class="text-box">
+            <h3>crazy8</h3>
+            <p>blue sky is crazy more than me.</p>
+            <br />
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <img src="assets/crazy 8.jpg" alt="" />
+        </div>
+      </div>
+      <!-- contact -->
+      <div class="title">contact us</div>
+      <div class="contact hidden" id="contact">
+        <!-- <img src="assets/contact.jpg" alt="" /> -->
+        <video autoplay loop muted src="assets/contact.mp4"></video>
+        <div class="form">
+          <h1>join us</h1>
+          <input type="email" name="" id="email" placeholder="Email" />
+          <input type="password" name="" id="" placeholder="Password" />
+          <input type="submit" value="Submit" />
+        </div>
+      </div>
+      <footer><p>made with 🤍 by youssef gamal</p></footer>
+    </div>
+  </body>
+  <script defer src="script.js"></script>
+</html>
